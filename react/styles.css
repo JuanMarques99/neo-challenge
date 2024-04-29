@@ -1,0 +1,18 @@
+.login_form {
+  border: 1px solid #eee;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form input {
+  margin: 10px 0;
+}
+
+.login_form button {
+  margin: 10px 0;
+}
+/* Ayuda al usuario a identificar que el error se encuentra en el input */
+.login_form input.error {
+  border-color: red;
+}
